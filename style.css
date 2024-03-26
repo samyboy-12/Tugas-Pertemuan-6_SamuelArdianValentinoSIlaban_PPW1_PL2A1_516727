@@ -92,55 +92,6 @@ h1 {
   fill: #6e8098;
 }
 
-.share.active {
-  background-color: hsl(217, 19%, 35%);
-  fill: hsl(210, 46%, 95%);
-}
-
-.social-media {
-  display: none;
-  position: absolute;
-  right: -57px;
-  bottom: 112px;
-  background-color: hsl(217, 19%, 35%);
-  border-radius: 8px;
-  z-index: 2;
-  height: 55px;
-  width: 250px;
-}
-
-.social-media::after {
-  content: "";
-  position: absolute;
-  bottom: -28px;
-  left: 50%;
-  transform: translateX(-50%);
-  border: 15px solid transparent;
-  border-top-color: hsl(217, 19%, 35%);
-}
-
-.social-media.active > * {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.social-media.active {
-  display: flex;
-  box-shadow: 0px 5px 10px 0px #ccc;
-}
-
-.facebook {
-  margin-left: 20px;
-}
-
-.twitter,
-.pinterest {
-  position: relative;
-  margin-left: 15px;
-}
-
 @media only screen and (max-width: 375px) {
   #article-card {
     position: relative;
