@@ -197,33 +197,4 @@ h1 {
     left: 210px;
     z-index: 3;
   }
-
-  .share.active {
-    background-color: #6e8098;
-  }
-
-  .social-media {
-    right: 0px;
-    bottom: 0px;
-    width: 100%;
-    z-index: 2;
-    height: 65px;
-  }
-
-  .social-media.active {
-    display: flex;
-    box-shadow: none;
-    border-start-start-radius: 0;
-    border-start-end-radius: 0;
-    border-end-end-radius: 8px;
-    border-end-start-radius: 8px;
-  }
-
-  .social-media::after {
-    display: none;
-  }
-
-  .social-media p {
-    padding-right: 85px;
-  }
 }
